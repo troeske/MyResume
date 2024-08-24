@@ -69,4 +69,4 @@ function fetchGitHubInformation() {
         });
 }
 
-fetchGitHubInformation()
+$(document).ready(fetchGitHubInformation);
